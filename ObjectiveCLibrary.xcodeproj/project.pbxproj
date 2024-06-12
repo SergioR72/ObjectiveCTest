@@ -11,6 +11,8 @@
 		967100112C1A2B9A005BC5CF /* ObjectiveCLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967100062C1A2B9A005BC5CF /* ObjectiveCLibrary.framework */; };
 		967100162C1A2B9A005BC5CF /* ObjectiveCLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 967100152C1A2B9A005BC5CF /* ObjectiveCLibraryTests.m */; };
 		967100172C1A2B9A005BC5CF /* ObjectiveCLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 967100092C1A2B9A005BC5CF /* ObjectiveCLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		967100272C1A2F1F005BC5CF /* MakeCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 967100252C1A2F1F005BC5CF /* MakeCode.h */; };
+		967100282C1A2F1F005BC5CF /* MakeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 967100262C1A2F1F005BC5CF /* MakeCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		9671000A2C1A2B9A005BC5CF /* ObjectiveCLibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ObjectiveCLibrary.docc; sourceTree = "<group>"; };
 		967100102C1A2B9A005BC5CF /* ObjectiveCLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		967100152C1A2B9A005BC5CF /* ObjectiveCLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCLibraryTests.m; sourceTree = "<group>"; };
+		967100252C1A2F1F005BC5CF /* MakeCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeCode.h; sourceTree = "<group>"; };
+		967100262C1A2F1F005BC5CF /* MakeCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeCode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 			children = (
 				967100092C1A2B9A005BC5CF /* ObjectiveCLibrary.h */,
 				9671000A2C1A2B9A005BC5CF /* ObjectiveCLibrary.docc */,
+				967100252C1A2F1F005BC5CF /* MakeCode.h */,
+				967100262C1A2F1F005BC5CF /* MakeCode.m */,
 			);
 			path = ObjectiveCLibrary;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				967100172C1A2B9A005BC5CF /* ObjectiveCLibrary.h in Headers */,
+				967100272C1A2F1F005BC5CF /* MakeCode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967100282C1A2F1F005BC5CF /* MakeCode.m in Sources */,
 				9671000B2C1A2B9A005BC5CF /* ObjectiveCLibrary.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
